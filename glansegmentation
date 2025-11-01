@@ -1,0 +1,92 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "42b38375",
+   "metadata": {
+    "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
+    "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
+    "execution": {
+     "iopub.execute_input": "2025-11-01T17:08:36.158584Z",
+     "iopub.status.busy": "2025-11-01T17:08:36.158226Z",
+     "iopub.status.idle": "2025-11-01T17:08:36.689778Z",
+     "shell.execute_reply": "2025-11-01T17:08:36.688513Z"
+    },
+    "papermill": {
+     "duration": 0.536544,
+     "end_time": "2025-11-01T17:08:36.691524",
+     "exception": false,
+     "start_time": "2025-11-01T17:08:36.154980",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Data source import complete at /kaggle/input/glasmiccai2015-gland-segmentation\n"
+     ]
+    }
+   ],
+   "source": [
+    "import kagglehub\n",
+    "sani84_glasmiccai2015_gland_segmentation_path = kagglehub.dataset_download('sani84/glasmiccai2015-gland-segmentation')\n",
+    "\n",
+    "print(f'Data source import complete at {sani84_glasmiccai2015_gland_segmentation_path}')"
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [
+    {
+     "databundleVersionId": 3808824,
+     "datasetId": 2243252,
+     "isSourceIdPinned": false,
+     "sourceId": 3754326,
+     "sourceType": "datasetVersion"
+    }
+   ],
+   "dockerImageVersionId": 31153,
+   "isGpuEnabled": false,
+   "isInternetEnabled": true,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.13"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 6.857396,
+   "end_time": "2025-11-01T17:08:37.213570",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2025-11-01T17:08:30.356174",
+   "version": "2.6.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
